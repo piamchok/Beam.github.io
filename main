@@ -157,7 +157,7 @@
         // --- ส่วน JavaScript (การทำงาน) ---
 
         // 1. ตั้งค่า connection
-        const broker = 'wss:/test.mosquitto.org:8081'; // ใช้ Public Broker ทดสอบ
+        const broker = 'wss://broker.hivemq.com:8884/mqtt'; // ใช้ Public Broker ทดสอบ
         // **สำคัญ** เปลี่ยน topic นี้ให้เป็นชื่อเฉพาะของคุณ ไม่งั้นข้อมูลจะชนกับคนอื่น
         const topic = "chiangmai/ballnbeam/project_xx/data"; 
 
